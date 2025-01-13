@@ -1,0 +1,13 @@
+defaults
+auth           on
+tls            on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+logfile        /var/log/msmtp.log
+
+# SMTP configuration
+account        default
+host           smtp.gmail.com
+port           587
+from           app.develop2025@gmail.com
+user           app.develop2025@gmail.com
+password       dinamicne
